@@ -34,6 +34,7 @@
 </#if>
 <#if isModel && isFragment>
     <instantiate from="root/src/app_package/ZYFModel.java.ftl"
-                   to="${projectOut}/src/main/java/${slashedPackageName(modelPackageName)}/${pageName}ViewModel.java" />
+                   to="${projectOut}/src/main/java/${slashedPackageName(modelPackageName)}/${pageName}FraViewModel.java" />
+                   
 </#if>
 </recipe>
